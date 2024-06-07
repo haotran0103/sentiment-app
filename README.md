@@ -58,7 +58,7 @@ Bạn có thể kiểm tra API bằng cách sử dụng curl, Postman, hoặc Fa
 Sử dụng curl:
 
     ```bash
-   curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" -d '{"text": "I love this movie! It was fantastic."}'
+      curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" -d '{"text": "I love this movie! It was fantastic."}'
 
 Sử dụng Postman:
 - Mở Postman và tạo một yêu cầu mới với phương thức POST.
@@ -66,4 +66,4 @@ Sử dụng Postman:
 - **Headers:** Content-Type: application/json
 - **Body:** `{"text": "I love this movie! It was fantastic."}`
 - Gửi yêu cầu và quan sát phản hồi.
-![Sentiment Analysis]([https://your-image-url.com/sentiment_analysis.png](https://github.com/haotran0103/sentiment-app/blob/master/image.png))
+![Sentiment Analysis](https://github.com/haotran0103/sentiment-app/blob/master/image.png)
