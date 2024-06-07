@@ -37,14 +37,14 @@ Text Sentiments là một ứng dụng phân tích cảm xúc sử dụng mô h�
    docker build -t text-sentiments:latest .
    docker run -d --name text-sentiments-container -p 8000:8000 text-sentiments:latest
 4. Model Training
-có thể sử dụng Google Colab hoặc chạy trực tiếp trong dự án:
-
-Using Google Colab
-https://drive.google.com/file/d/1I8N--IgUp0YgVCinbwYJlmPiYDefC7LO/view?usp=sharing
-
-Using the Train Pipeline
-    ```bash
-   python src/textSentiments/pipeline/train_pipeline.py
+   có thể sử dụng Google Colab hoặc chạy trực tiếp trong dự án:
+   
+   Using Google Colab
+   https://drive.google.com/file/d/1I8N--IgUp0YgVCinbwYJlmPiYDefC7LO/view?usp=sharing
+   
+   Using the Train Pipeline
+       ```bash
+      python src/textSentiments/pipeline/train_pipeline.py
 
 ### Application Deployment
 Ứng dụng được triển khai bằng FastAPI và có thể truy cập tại http://localhost:8000.
