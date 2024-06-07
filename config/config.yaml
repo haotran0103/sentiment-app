@@ -1,0 +1,4 @@
+dataset_name: "imdb"
+model_name: "bert-base-uncased"
+epochs: 3
+learning_rate: 2e-5

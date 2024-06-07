@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+transformers
+datasets
+pandas
+pyyaml
+torch
+matplotlib
